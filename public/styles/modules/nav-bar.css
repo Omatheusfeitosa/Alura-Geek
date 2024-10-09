@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+    background-color: var(--primary-bg);
+    color: var(--font-color);
+}
+
+.nav-logo {
+
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px; 
+}
+
+.nav-menu a {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-bottom: 0.5rem;
+    transition: 0.5s;
+}
+
+.nav-menu a:hover {
+    border-bottom: 2px solid var(--font-color);
+}

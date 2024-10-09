@@ -1,0 +1,11 @@
+footer {
+    height: 75px;
+    background-color: var(--primary-bg);
+}
+
+footer h3 {
+    padding: 2rem;
+    text-align: center;
+    color: var(--font-color);
+    font-size: 0.87rem;   
+}

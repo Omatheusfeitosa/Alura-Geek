@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="keywords" content="AluraGeek, Alura, Front End, Oracle">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/622f2dc9af.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- JavaScricpt -->
+    <script src="js/main.js" defer></script>
+    <title>AluraGeek - Home</title>
+</head>
+<body>
+    <header class="nav">
+        <div class="nav-logo">
+            <img src="img/Logo.svg" alt="">
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </header>
+
+    <main class="principal">
+        <section class="produtos">
+            <h2 class="produtos-title">Meus Produtos</h2>
+            <div class="produtos-container">
+            </div>    
+             
+        </section>
+        <section class="cadastrar">
+            <h2 class="cadastrar-title">Adicionar Produtos</h2>
+            <form action="">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <input type="number" name="valor" id="valor" placeholder="Valor" required>
+                <input type="text" name="imagem" id="imagem" placeholder="Url da Imagem" required>
+                <div class="buttons">
+                    <button class="btn-guardar">Guardar</button>
+                    <button class="btn-limpar">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3> &copy; Todos os direitos reservados - Matheus Feitosa</h3>
+    </footer>
+    
+</body>
+</html>

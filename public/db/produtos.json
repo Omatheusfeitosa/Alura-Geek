@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Smartphone",
+        "valor": 599.99,
+        "imagem": "../img/smartphone.png"
+    },
+    {
+        "nome": "Portátil",
+        "valor": 899.99,
+        "imagem": "../img/portatil.png"
+    },
+    {
+        "nome": "Fone Bluetooth",
+        "valor": 49.99,
+        "imagem": "../img/fone.png"
+    },
+    {
+        "nome": "Monitor 4K",
+        "valor": 349.99,
+        "imagem": "../img/monitor-4k.png"
+    },
+    {
+        "nome": "Teclado Mecânico",
+        "valor": 89.99,
+        "imagem": "../img/teclado-mecanico.png"
+    },
+    {
+        "nome": "Mouse Game",
+        "valor": 59.99,
+        "imagem": "../img/mouse-gamer.png"
+    },
+    {
+        "nome": "Tablet",
+        "valor": 299.99,
+        "imagem": "../img/tablet-gamer.png"
+    },
+    {
+        "nome": "Smartwatch",
+        "valor": 199.99,
+        "imagem": "../img/smartwatch.png"
+    }
+]
