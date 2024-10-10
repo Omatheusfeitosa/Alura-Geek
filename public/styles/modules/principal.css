@@ -178,10 +178,22 @@
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
+
+    .produtos-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        box-sizing: border-box;
+        max-height: 80vh;
+        overflow-y: auto; 
+        overflow-x: hidden;
+    }
     
     .produto {
+        display: none;
         background-color: var(--primary-bg);
-        width: calc(50% - 1rem);
+        width: calc(100% - 1rem);
         min-width: 150px;
         min-height: 250px; 
         padding: 0.5rem;
