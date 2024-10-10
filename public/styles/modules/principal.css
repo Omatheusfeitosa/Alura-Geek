@@ -156,3 +156,85 @@
 .sobre-projeto ul {
     list-style-type: circle;
 }
+
+@media (max-width: 768px) {
+    .principal {
+        flex-direction: column-reverse;
+    }
+    
+    .produtos {
+        max-height: 80vh;
+        width: 88%;
+        overflow: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex: 1; 
+        gap: 1rem;
+        background-color: var(--font-color); 
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .produto {
+        background-color: var(--primary-bg);
+        width: calc(25% - 1rem);
+        min-width: 150px;
+        min-height: 250px; 
+        padding: 0.5rem;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        color: var(--font-color);
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between; 
+    }
+       
+    .cadastrar {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 88%;
+        text-align: center;
+        flex: 1; 
+        gap: 1rem;
+        background-color: var(--font-color); 
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    
+    .cadastrar form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .cadastrar input {
+        width: 15rem;
+        height: 2rem;
+        border: 2px solid var(--secondary-bg);
+        border-radius: 10px;
+        padding-left: 0.5rem;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 15.5rem;
+        font-size: 0.87rem;
+    }
+
+    input[placeholder] {
+        font-size: 0.87rem;
+    }
+
+}

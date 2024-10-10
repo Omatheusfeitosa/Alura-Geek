@@ -9,3 +9,10 @@ footer h3 {
     color: var(--font-color);
     font-size: 0.87rem;   
 }
+
+@media (max-width: 768px) {
+    footer h3 {
+        padding: 1rem;
+        font-size: 0.80rem;
+    }
+}

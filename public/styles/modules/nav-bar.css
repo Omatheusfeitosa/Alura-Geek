@@ -29,3 +29,23 @@
 .nav-menu a:hover {
     border-bottom: 2px solid var(--font-color);
 }
+
+
+@media (max-width: 768px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 4rem;
+    }
+    
+    .nav-logo {
+        width: 15rem;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+    
+}
